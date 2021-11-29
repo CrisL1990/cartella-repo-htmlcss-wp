@@ -1,0 +1,103 @@
+/*Inizio common*/
+*{
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+header, main, footer{
+    width: 80%;
+    margin: auto;
+}
+/*Fine common*/
+
+/*Inizio header*/
+header{
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo-img{
+    width: 45%;
+    padding-right: 15px;
+    border-right: solid rgba(208, 208, 208, 0.5) 1px;
+
+}
+/*Fine header*/
+
+/*Inizio main*/
+main{
+    position: relative;
+    height: 800px;
+}
+/*Fine main*/
+
+/*Inizio banner*/
+.banner{
+    width: 100%;
+    height: 43%;
+    background-color: sandybrown;
+    margin-bottom: 2%;
+}
+/*Fine banner*/
+
+
+/*Inizio content*/
+.content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 55%;
+    background-color: rgba(0, 162, 255, 0.952);
+    padding-bottom: 2%;
+}
+
+.content:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-header{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+    margin-bottom: 2%;
+    
+}
+
+.left-box, .central-box{
+    float: left;
+}
+
+.right-box{
+    float:right
+}
+
+.central-box{
+   width: 54%;
+   margin-left: 2%;
+   margin-right: 2%;  
+    
+}
+
+.left-box, .right-box, .central-box{
+    height: 86%;
+    background-color: aqua;
+   
+}
+
+.left-box, .right-box{
+   width: 21%;
+}
+/*Fine content*/
+
+/*Inizio footer*/
+footer{
+    margin-top: 5px;
+    height: 50px;
+    background-color: blueviolet;
+}
+/*Fine footer*/
