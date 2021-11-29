@@ -80,6 +80,31 @@ main{
     left: 0;
     right: 0;
 }
+
+.banner-txt{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.banner-title{
+    position: relative;
+    z-index: 9;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.banner-par{
+    position: relative;
+    color: white;
+    font-size: 12px;
+    z-index: 10;
+    margin-top: 0px;
+}
 /*Fine banner*/
 
 
