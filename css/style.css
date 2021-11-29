@@ -194,8 +194,20 @@ main{
 /*Fine content*/
 
 /*Inizio footer*/
-footer{
+
+.footer{
     height: 50px;
-    background-color: blueviolet;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.heart{
+    line-height: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+.footer-text{
+    vertical-align: middle;
 }
 /*Fine footer*/
