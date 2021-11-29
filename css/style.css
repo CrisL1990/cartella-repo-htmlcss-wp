@@ -52,7 +52,6 @@ nav{
 /*Inizio main*/
 main{
     position: relative;
-    height: 800px;
 }
 
 /*Inizio banner*/
@@ -113,7 +112,6 @@ main{
     margin-top: 0px;
     box-sizing: border-box;
     width: 100%;
-    padding-bottom: 2%;
 }
 
 .content:after{
@@ -184,17 +182,10 @@ main{
     color: rgb(165, 161, 161);
     font-size: 12px;
 }
-/*Inizio left box*/
-
-/*Inizio right box*/
-
-
-/*Fine right box*/
-
+/*Fine left box*/
 /*Fine content*/
 
 /*Inizio footer*/
-
 .footer{
     height: 50px;
     text-align: center;
@@ -203,11 +194,14 @@ main{
 
 .heart{
     line-height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     color: red;
 }
 
 .footer-text{
+    color: rgb(165, 161, 161);
+    font-size: 12px;
+    line-height: 50px;
     vertical-align: middle;
 }
 /*Fine footer*/
