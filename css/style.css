@@ -113,7 +113,6 @@ main{
     margin-top: 0px;
     box-sizing: border-box;
     width: 100%;
-    height: 55%;
     padding-bottom: 2%;
 }
 
@@ -168,10 +167,11 @@ main{
     margin-bottom: 0px;
 }
 
-.icona-1{
+.icona-1, .icona-3, .icona-2{
     width: 100%;
     height: 150px;
     z-index: 9;
+    object-fit: cover;
 }
 
 .box-title{
@@ -187,24 +187,14 @@ main{
 /*Inizio left box*/
 
 /*Inizio right box*/
-.icona-2{
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-    z-index: 9;
-}
 
-.side-par{
-    color: rgb(165, 161, 161);
-    font-size: 12px;
-}
+
 /*Fine right box*/
 
 /*Fine content*/
 
 /*Inizio footer*/
 footer{
-    margin-top: 5px;
     height: 50px;
     background-color: blueviolet;
 }
