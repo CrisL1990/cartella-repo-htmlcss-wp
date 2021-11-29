@@ -55,25 +55,25 @@ main{
     height: 800px;
 }
 
-
-
 /*Inizio banner*/
 .banner{
     border-radius: 10px;
     width: 100%;
     position: relative;
+    margin-bottom: 0px;
 }
 
 .banner-1{
+    border-radius: 10px;
     object-fit: cover;
-    height: 320px;
+    height: 400px;
     width: 100%;
 }
 
 .overlay{
     border-radius: 10px;
     background-color: gray;
-    opacity: 0.5;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -108,12 +108,12 @@ main{
 /*Fine banner*/
 
 
-/*Inizio content*/
+/*Inizio content general*/
 .content{
+    margin-top: 0px;
     box-sizing: border-box;
     width: 100%;
     height: 55%;
-    background-color: rgba(0, 162, 255, 0.952);
     padding-bottom: 2%;
 }
 
@@ -121,14 +121,6 @@ main{
     content: "";
     display: table;
     clear: both;
-}
-
-.content-header{
-    width: 100%;
-    height: 10%;
-    background-color: aqua;
-    margin-bottom: 2%;
-    
 }
 
 .left-box, .central-box{
@@ -146,15 +138,68 @@ main{
     
 }
 
-.left-box, .right-box, .central-box{
-    height: 86%;
-    background-color: aqua;
-   
-}
-
 .left-box, .right-box{
    width: 21%;
 }
+/*Fine content general*/
+
+
+/*Inizio content header*/
+.content-header{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.main-title{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.subtitle{
+    font-size: 12px;
+    color: rgb(165, 161, 161);
+}
+/*Fine content header*/
+
+/*Inizio left box*/
+.left-box-img, .right-box-img{
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.icona-1{
+    width: 100%;
+    height: 150px;
+    z-index: 9;
+}
+
+.box-title{
+    color: rgb(165, 161, 161);
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.side-par{
+    color: rgb(165, 161, 161);
+    font-size: 12px;
+}
+/*Inizio left box*/
+
+/*Inizio right box*/
+.icona-2{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    z-index: 9;
+}
+
+.side-par{
+    color: rgb(165, 161, 161);
+    font-size: 12px;
+}
+/*Fine right box*/
+
 /*Fine content*/
 
 /*Inizio footer*/
